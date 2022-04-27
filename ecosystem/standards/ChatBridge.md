@@ -1,26 +1,26 @@
 ## Bridging Chats
 
-All ecosystem projects are welcome to a channel that is bridged between their server/telegram using [matterbridge](https://github.com/42wim/matterbridge). See #ergodex , #sigmavalley or #comet on the Ergo Discord for examples of this in action.. 
+All ecosystem projects are welcome to a channel that is bridged between their server/telegram using [matterbridge](https://github.com/42wim/matterbridge). See #ergodex, #sigmavalley or #comet on the Ergo Discord for examples of this in action.
 
 **1.** Invite @BridgeBot#9505 to your server using [this invite link](https://discordapp.com/oauth2/authorize?&client_id=910495131646455808&scope=bot&permissions=536870912)
 
-> You're setup your [your own bot](https://github.com/42wim/matterbridge/wiki/Discord-bot-setup) but will need to send @Glasgow the `Token` ID if you want it bridged to existing ergo chats. **You only need to grant the bot the ability to see/read messages and set webhooke in the channel you want to bridge.** 
+> You're set up your [your own bot](https://github.com/42wim/matterbridge/wiki/Discord-bot-setup) but will need to send @Glasgow the `Token` ID if you want it bridged to existing ergo chats. **You only need to grant the bot the ability to see/read messages and set webhooks in the channel you want to bridge.** 
 
 **2.** Invite [ErgoBridgeBot](https://t.me/ErgoBridgeBot) to your Telegram
 
 > You'll need to use `/allowInvitingBots` if Shieldy is enabled.  
 
-**3.** Tag @Glasgow and let him know what channel/server you want bridged so it can be added to the configuration. 
+**3.** Tag @Glasgow and let him know what channel/server you want to be bridged so it can be added to the configuration. 
 
 **Limitations**:
 - Discord doesn't give bots the ability to reply to messages when spoofing someone. 
-  - Working on making this prettier, currently name is repeated. (Set by `QuoteFormat` in the config below).
+  - Still working on making this prettier, currently, the username is repeated. (Set by `QuoteFormat` in the config below).
   - [Allow webhooks to use reply messages#3282](https://github.com/discord/discord-api-docs/discussions/3282)
 - [Telegram API doesn't report deleted messages](https://github.com/42wim/matterbridge/wiki/FAQ#matterbridge-is-not-deleting-messages-from-telegram-to-other-bridges). This means any spam deleted on Telegram will remain on Discord.  
    - **Workaround**: New Telegram users should be restricted from speaking until verifying. Shieldy or [OrgRobot](http://orgrobot.io/) work best here. 
 
 Other than that, works pretty well. 
-- Names/profile-photos will be spoofed if they're set and the names are similar. (I can also map names manually). But the profile photos need to re-cache everytime a new bridge is added. 
+- Names/profile-photos will be spoofed if they're set and the names are similar. (I can also map names manually). But the profile photos need to be re-cached when a new bridge is added. 
 - Responses will reply to the message on both platforms so people will see notifications. 
 
 ### Config

@@ -1,0 +1,23 @@
+{
+    "grammarly.overrides": [
+        {
+            "files": [
+                "**/ecosystem/standards/ChatBridge.md"
+            ],
+            "config": {
+                "audience": "expert",
+                "dialect": "british",
+                "domain": "academic",
+                "emotions": [
+                    "neutral",
+                    "confident",
+                    "analytical"
+                ],
+                "goals": [
+                    "inform",
+                    "describe"
+                ]
+            }
+        }
+    ]
+}
