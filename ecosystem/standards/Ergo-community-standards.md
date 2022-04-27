@@ -23,7 +23,7 @@
 | ------- | --------------------------------------------------------- |
 | **3.1** | Verify Telegram groups have anti-spam protection in place |
 | **3.2** | Verify Discord groups have anti-spam protection in place  |
-
+| **3.3** | Considering bridging your chats to boost engagement and reduce friction  |
 
 
 
@@ -36,3 +36,4 @@
 | **2.3** | [Semgrep](https://github.com/marketplace/actions/semgrep-action) with [Secrets Policy](https://semgrep.dev/p/secrets) |
 | **3.1** | [TgDev](https://tgdev.io/), [Shieldy](https://botostore.com/c/shieldy_bot/) |
 | **3.2** | [Captcha.bot](https://top.gg/bot/512333785338216465)         |
+| **3.3** | [Bridging Guide](ChatBridge.md)         |
