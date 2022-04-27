@@ -6,7 +6,7 @@ Follow these simple steps to get bridged;
 
 **1.** Invite @BridgeBot#9505 to your server using [this invite link](https://discordapp.com/oauth2/authorize?&client_id=910495131646455808&scope=bot&permissions=536870912)
 
-> You're set up your [your own bot](https://github.com/42wim/matterbridge/wiki/Discord-bot-setup) but will need to send @Glasgow the `Token` ID if you want it bridged to existing ergo chats. **You only need to grant the bot the ability to see/read messages and set webhooks in the channel you want to bridge.** 
+> You can set up your [your own bot](https://github.com/42wim/matterbridge/wiki/Discord-bot-setup) but will need to send @Glasgow the `Token` ID if you want it bridged to existing ergo chats. **You only need to grant the bot the ability to see/read messages and set webhooks in the channel you want to bridge.** 
 
 **2.** Invite [ErgoBridgeBot](https://t.me/ErgoBridgeBot) to your Telegram
 
