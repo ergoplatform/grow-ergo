@@ -23,7 +23,7 @@ Follow these simple steps to get bridged;
 
 Other than that, works pretty well. 
 - Names/profile-photos will be spoofed if they're set and the names are similar. (I can also map names manually). But the profile photos need to be re-cached when a new bridge is added. 
-- Responses will reply to the message on both platforms so people will see notifications. 
+- Responses will reply to the message on Telegram platforms so people will see notifications. On Discord it'll quote the message. 
 
 ### Config
 
